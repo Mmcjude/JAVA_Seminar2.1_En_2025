@@ -3,7 +3,7 @@ package model;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
-public class Purchase {
+public class Purchase{
 	// variables, getters, setters, both constructors, toString + other functions(if necessary)
 	private String userCardNr;
 	private ArrayList<Vehicle> shoppingList = new ArrayList<Vehicle>();
@@ -47,7 +47,7 @@ public class Purchase {
 	}
 	
 	public String toString() {
-		return userCardNr + "bought " + shoppingList + " (" + dateTime + ")";
+		return userCardNr + " bought " + shoppingList + " (" + dateTime + ")";
 	}
 	
 }
